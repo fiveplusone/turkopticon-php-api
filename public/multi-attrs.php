@@ -15,7 +15,7 @@
 
   header("Access-Control-Allow-Origin: *");
 
-  include '../../php_api/mysqli-dbconn.php';
+  include '../dbconn.php';
 
   /* Connection Error Handling (Procedural): */
   if (!$conn) {
