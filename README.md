@@ -12,17 +12,17 @@ This is the read-only PHP API for Turkopticon, an employer review system for Ama
 6. Make the log file:
 
     ```
-    > $ cd /path/to/api/log && touch multi-attrs.php.log
-   ```
+    $ cd /path/to/api/log && touch multi-attrs.php.log
+    ```
 
 7. Make sure the log can be written to. For example:
 
     ```
-    > $ cd /path/to/api/log && chmod 777 multi-attrs.php.log
+    $ cd /path/to/api/log && chmod 777 multi-attrs.php.log
     ```
 
 8. Make sure the log won't grow forever. For example, use logrotate or make a cron job like:
 
     ```
-    > 0 0 1 * * cd /path/to/api/log && tail -n20000 multi-attrs.php.log > multi-attrs.old && echo "" > multi-attrs.log
+    0 0 1 * * cd /path/to/api/log && tail -n20000 multi-attrs.php.log > multi-attrs.old && echo "" > multi-attrs.log
     ```
