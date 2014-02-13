@@ -51,7 +51,7 @@
     $i = 0;
     echo "{";
 
-    $logfile = '../../php_api/log/multi-attrs.php.log';
+    $logfile = '../log/multi-attrs.php.log';
     $time = date('Y-m-j H:i:s');
     $ip = $_SERVER['REMOTE_ADDR'];
     file_put_contents($logfile, "[API v2014.02.01.1838] ", FILE_APPEND);
