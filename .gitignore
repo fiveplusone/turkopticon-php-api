@@ -1,0 +1,12 @@
+
+# logs
+log/
+
+# this has db credentials; dbconn-example.php is included instead
+dbconn.php
+
+# APC admin panel
+apc.php
+
+# etc
+dbtest.php
