@@ -92,7 +92,7 @@
 
 	  }
 
-          mysqli_stmt_close( $query );
+          mysqli_stmt_close( $stmt );
 
          }
       }
